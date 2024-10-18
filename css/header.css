@@ -39,11 +39,11 @@
 .header__link::after {
   content: "";
   position: absolute;
-  top: -8px;
   left: -13px;
-  width: 34px;
+  top: -1px;
+  width: 205px;
   height: 34px;
-  border-radius: 50%;
+  border-radius: 25px;
   background-color: var(--accent-color);
   opacity: 0;
   transition: var(--transition);
@@ -125,7 +125,12 @@
 .hero__content {
   display: flex;
   flex-direction: column;
-  max-width: 519px;
+  max-width: 600px;
+  height: 315px;
+  padding-left: 40px; 
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: var(--general-bg);
 }
 
 .hero__info {

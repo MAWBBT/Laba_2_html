@@ -1,10 +1,10 @@
 :root {
   --general-text: #312c27;
   --accent-text: #1f1711;
-  --general-bg: #fff9f4;
+  --general-bg: white;
   --accent-bg: #ffe0cb;
-  --accent-color: #ffa55c;
-  --hover-color: #ff9138;
+  --accent-color: #1582e8;
+  --hover-color: #1575cf;
   --color-grey: #b197b3;
   --transition: all 0.3s ease-in-out;
   --border-radius-20: 20px;

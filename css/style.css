@@ -43,7 +43,7 @@
   max-height: 108px;
   padding: 18px 20px;
   border-radius: var(--border-radius-20);
-  background: #957b97e6;
+  background: #1575cf;
 }
 
 .about__play-text {
@@ -67,7 +67,7 @@
   content: "";
   position: absolute;
   inset: 5px;
-  border: 1px solid #ceaad0;
+  border: 1px solid #1575cf;
   border-radius: 50%;
   opacity: 0;
   transition: var(--transition);
@@ -178,7 +178,7 @@
   }
   100% {
     transform: translate(4%) scale(1.1);
-    color: #ff9138;
+    color: white;
   }
 }
 
@@ -189,7 +189,7 @@
 
 .program__price-text {
   margin-bottom: 8px;
-  color: #ceaad0;
+  color: black;
   text-align: left;
   text-transform: uppercase;
 }
@@ -333,7 +333,7 @@
 
 .accordion__content-title {
   margin-bottom: 20px;
-  color: rgb(206, 170, 208);
+  color: #1575cf;
   line-height: 1.6;
   text-transform: uppercase;
 }
@@ -360,7 +360,7 @@
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  border: 1px solid #ceaad0;
+  border: 1px solid #1575cf;
   border-radius: 100px;
 }
 
@@ -595,7 +595,7 @@
   text-transform: uppercase;
 }
 .fedback__student-inst {
-  color: #ceaad0;
+  color: black;
 }
 .feedback__student-text span {
   display: block;
@@ -679,8 +679,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 420px;
-  min-width: 290px;
+  max-width: 500px;
+  height: 455px;
+  padding-left: 20px; 
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+  background-color: var(--general-bg);
 }
 
 .application__title {
@@ -707,7 +712,7 @@
 .application__input-tel {
   padding: 20px 28px;
   width: 100%;
-  border: 1px solid #ac907a;
+  border: 1px solid #1575cf;
   border-radius: 100px;
   background: transparent;
   font-size: 16px;
@@ -716,7 +721,7 @@
 
 .application__input-tel::placeholder {
   transition: var(--transition);
-  color: #ac907a;
+  color: #1575cf;
 }
 
 .application__input-tel:hover {

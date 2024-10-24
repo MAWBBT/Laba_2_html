@@ -79,7 +79,7 @@ html {
 .form__input {
   padding: 20px 28px;
   width: 100%;
-  border: 1px solid #ac907a;
+  border: 1px solid #1575cf;
   border-radius: 100px;
   background: transparent;
   font-size: 16px;
@@ -90,7 +90,7 @@ html {
   position: absolute;
   top: 12px;
   left: 28px;
-  color: #ac907a;
+  color: #1575cf;
   font-size: 11px;
   text-align: left;
   opacity: 0;
@@ -99,7 +99,7 @@ html {
 
 .form__input::placeholder {
   transition: var(--transition);
-  color: #ac907a;
+  color: #1575cf;
 }
 
 .form__input:hover {
@@ -130,7 +130,7 @@ html {
   flex-shrink: 0;
   width: 16px;
   height: 16px;
-  border: 1.5px solid #ac907a;
+  border: 1.5px solid #1575cf;
   border-radius: 4px;
   transition: var(--transition);
   cursor: pointer;
@@ -204,7 +204,7 @@ html {
 
 .modal__cancel:hover path,
 .modal__cancel:hover rect {
-  stroke: #ac907a;
+  stroke: #1575cf;
 }
 
 .modal__decor {
@@ -241,7 +241,7 @@ html {
   position: absolute;
   top: 12px;
   left: 28px;
-  color: #ac907a;
+  color: #1575cf;
   font-size: 11px;
   text-align: left;
   opacity: 0;

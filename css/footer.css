@@ -1,6 +1,6 @@
 /* footer */
 .footer {
-  background-color: rgb(171, 130, 97);
+  background-color: #1582e8;
   padding: 60px 0 25px;
   color: var(--general-bg);
 }
@@ -39,7 +39,7 @@
 }
 
 .socials__link:hover path {
-  fill: var(--accent-color);
+  fill: #0e3f6d;
 }
 
 .footer__col-list {
@@ -99,8 +99,8 @@
 }
 
 .footer-tel:hover {
-  color: var(--accent-color);
+  color: #0e3f6d;
 }
 .footer__col-copy {
-  color: #dec5b1;
+  color: white;
 }
